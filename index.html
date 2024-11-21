@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <label for="dob">Select DOB</label>
+        <input type="date" id="dob">
+        <label for="today">Today Date</label>
+        <input type="date" id="today">
+        <button onclick="calculateAge()">Calculate</button>
+        <div class="result">
+            <div class="age">
+                <p>Age</p>
+                <p id="age">-- Year</p>
+            </div>
+            <div class="birthday">
+                <p>Next Birthday</p>
+                <i class="fas fa-birthday-cake"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
